@@ -1,5 +1,5 @@
-.body {
-    font-family: "Rubik", sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
 }
 .logo {
     display: flex;
@@ -13,6 +13,8 @@
     font-weight: 500px;  
     line-height: 28px;
     margin: 9px 145px;
+    word-spacing: 50px;
+    margin-right: 50px;
 }
 .navbar {
     display: flex;
@@ -47,6 +49,9 @@
     border-radius: 5px;
     width: 110px;
     height: 46px;
+    outline: none;
+    border: none;
+    
 }
 .container {
     display: flex;
@@ -59,7 +64,7 @@
 }
 .main-title {
     font-size: 54px;
-    width: 518px;
+    width: 700px;
     height: 108;
     margin: 211px 0px 0px 143px;
 }
@@ -76,6 +81,8 @@
     border-radius: 5px;
     width: 175px;
     height: 53px;
+    outline: none;
+    border: none;
 }
 .main-info {
    margin-left: 143px;
@@ -109,6 +116,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    outline: none;
+    border: none;
 }
 .design {
     margin-left: 143px;
@@ -118,7 +127,7 @@
 .red-guy {
     display: flex;
     margin-top: 180px;
-    margin-right: 300px;
+    margin-right: 200px;
 }
 .design-section {
     display: flex;
@@ -133,7 +142,6 @@
 .design-section2 {
     display: flex; 
     flex-direction: row-reverse;
-    allign-items: center;
     gap: 100px;
     margin-top: 100px;
 }
@@ -144,4 +152,63 @@
     display: flex;
     align-items: center;
     gap: 40px;
+}
+.design3 {
+    margin-left: 143px;
+    width: 518px; 
+    margin-top: 180px;
+}
+.yellow-guy {
+    display: flex;
+    margin-top: 180px;
+    margin-right: 200px;
+}
+.design-section3 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+footer {
+    margin-top: 180px;
+    color: #979797;
+}
+.footer { 
+    color: #544837;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sign-up-now2 {
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 175px;
+    height: 53px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo2 {
+    display: flex;
+    margin-bottom: 300px;
+    padding-bottom: 100px;
+}
+.footer-email {
+    width: 325px;
+    height: 48px;
+    border-radius: 5px;
+    gap: 40px;
+    margin-bottom: 40px;
+    border-color: #BCD0E5;
+}
+.footer-item {
+    margin-top: 100px;
+}
+.footer-hr {
+    width: 1109px;
+    height: 1px;
+    background-color: #BCD0E5;
+    margin-bottom: 100px;
+
 }
