@@ -86,7 +86,7 @@ body {
 }
 .main-info {
    margin-left: 143px;
-   width: 518px;
+   width: 458px;
 }
 .tools-section {
     display: flex;
@@ -103,7 +103,7 @@ body {
 }
 .tools {
     display: flex;
-    gap: 150px;
+    gap: 120px;
     margin: 0px 143px 0px 143px;
 }
 .sign-up-now {
@@ -207,8 +207,9 @@ footer {
 }
 .footer-hr {
     width: 1109px;
-    height: 1px;
+    height: 3px;
     background-color: #BCD0E5;
     margin-bottom: 100px;
-
+    outline: none;
+    border: none;
 }
